@@ -1,0 +1,53 @@
+.footer-main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+   
+}
+
+.footer-img{
+    height: 70px;
+    width: 130px;
+    filter: drop-shadow(0px 5px 10px #d1499b);
+    
+
+}
+
+
+@media (min-width: 300px) and (max-width: 480px)  {
+    .footer-main{
+        
+        margin: auto;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px)  {
+    .footer-main{
+        margin: auto;
+    }
+  }
+
+@media (min-width: 769px) and (max-width: 1025px)  {
+    .footer-main{
+        height: 100%;
+   
+    }
+   
+  
+}
+  
+@media (min-width: 1026px) and (max-width: 1200px)  {
+    .footer-main{
+        height: 45px;
+   
+    }
+  }
+  
+@media (min-width: 1201px)  {
+    .footer-main{
+        height: 100%;
+   
+    }
+}

@@ -1,0 +1,72 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+
+}
+
+.app-content{
+  background: url(./img/01.jpg) no-repeat ;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  
+}
+
+.app{
+  max-width: 980px;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding-top: 10px;
+  
+ 
+}
+
+/*###############  MOBILE #####################*/
+@media (min-width: 300px) and (max-width: 480px)  {
+  .app-content{
+    height: 100%;
+  }
+}
+
+/*###############  TABLET #####################*/
+@media (min-width: 481px) and (max-width: 768px)  {
+  .app-content{
+    height: 100%;
+  }
+}
+
+/*###############  LAPTOP #####################*/
+@media (min-width: 769px) and (max-width: 1025px)  {
+  .app-content{
+    height: 590px;
+    
+  }
+ 
+
+}
+
+/*###############  DESCKTOP #####################*/
+@media (min-width: 1026px) and (max-width: 1200px)  {
+  .app-content{
+    height: 100vh;
+    
+  }
+
+}
+
+/*###############  TV/+ #####################*/
+@media (min-width: 1201px) and (min-height: 600px)  {
+  .app-content{
+    height: 100vh;
+  }
+
+  .app{
+    padding-top: 10vh;
+  }
+}
